@@ -2,6 +2,7 @@
  * This code demonstrates the use of interfaces and abstract classes in Kotlin.
  * It defines a Drawable interface, an abstract Shape class, and two concrete classes Circle and Rectangle that implement the Drawable interface and extend the Shape class.
  * The main function creates a list of shapes, describes their area, and draws them if they are drawable.
+ *
  */
 
 import kotlin.math.PI
