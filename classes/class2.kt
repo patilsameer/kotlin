@@ -1,3 +1,10 @@
+/**
+ * The code demonstrates the use of sealed classes in Kotlin, which are a powerful way to represent 
+ * restricted class hierarchies. 
+ * A sealed class can have subclasses, but all of them must be declared in the same file. 
+ * This allows for exhaustive when expressions, where the compiler can check if all cases are covered.
+ */
+
 sealed class PaymentStatus {
     object Pending : PaymentStatus()
     object Complete : PaymentStatus()
