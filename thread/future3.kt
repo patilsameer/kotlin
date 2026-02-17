@@ -8,7 +8,7 @@ suspend fun fetchData(): String {
     delay(1000)
     return "Data loaded"
 }
-fun example3() {
+fun main() {
     val future = CompletableFuture.supplyAsync {
         Thread.sleep(1000)
         "Result"
