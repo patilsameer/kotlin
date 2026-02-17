@@ -18,7 +18,7 @@ suspend fun main() {
 }
 
 // Example 2: Multiple concurrent operations
-suspend fun example2() {
+suspend fun main() {
     coroutineScope {
         val deferred1 = async { fetchData() }
         val deferred2 = async { fetchData() }
