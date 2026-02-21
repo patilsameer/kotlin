@@ -1,7 +1,7 @@
 /*introducing coroutines
 Coroutines are a powerful feature in Kotlin that allow you to write asynchronous, 
 non-blocking code in a sequential manner. 
-They are lightweight threads that can be suspended and resumed without 
+They are lightweight threads (not having independent lifecycle) that can be suspended and resumed without 
 blocking the underlying thread. 
 This makes them ideal for tasks that involve waiting, 
 such as network requests or long-running computations.
