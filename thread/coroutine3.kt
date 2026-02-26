@@ -1,7 +1,5 @@
 /*please read and understand the coroutine2.kt file before looking at this code,
- as this code is a continuation of that file.
-   
- */
+ as this code is a continuation of that file.*/
 import kotlinx.coroutines.*
 
 
